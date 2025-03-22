@@ -13,10 +13,16 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text("Med Scribe")
+            NavigationLink("Sign In", destination: signIn())
+                                .padding()
+                                .background(Color.blue)
+                                .foregroundColor(.white)
+                                .cornerRadius(10)
         }
         .padding()
     }
+    
 }
 
 #Preview {
