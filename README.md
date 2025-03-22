@@ -1,0 +1,2 @@
+# MedScribe
+Beach Hacks Project
